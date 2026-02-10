@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Yuvaraj A | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin:0;
+  font-family:'Poppins', sans-serif;
+  background:#0f172a;
+  color:white;
+}
+
+/* NAVBAR */
+nav {
+  display:flex;
+  justify-content:space-between;
+  padding:20px 40px;
+  background:#020617;
+  position:sticky;
+  top:0;
+}
+nav a {
+  color:white;
+  text-decoration:none;
+  margin-left:20px;
+}
+
+/* HERO */
+.hero {
+  text-align:center;
+  padding:100px 20px;
+}
+.hero h1 {font-size:48px;}
+.hero span {color:#38bdf8;}
+
+.btn {
+  padding:12px 24px;
+  margin:10px;
+  border-radius:6px;
+  text-decoration:none;
+  color:white;
+  background:#38bdf8;
+}
+
+/* SECTION */
+section {
+  padding:60px 40px;
+  text-align:center;
+}
+
+/* SKILLS */
+.skills {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:20px;
+}
+.skill-box {
+  background:#1e293b;
+  padding:20px;
+  border-radius:8px;
+}
+
+/* PROJECTS */
+.projects {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+.card {
+  background:#1e293b;
+  padding:20px;
+  border-radius:10px;
+}
+
+/* FOOTER */
+footer {
+  background:#020617;
+  padding:20px;
+  text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div><b>Yuvaraj</b></div>
+  <div>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>Hello, I'm <span>Yuvaraj A</span></h1>
+  <p>Aspiring Machine Learning Engineer & Data Analyst</p>
+  <a class="btn" href="#projects">View Projects</a>
+  <a class="btn" href="resume.pdf">Resume</a>
+</div>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    Passionate about AI, Machine Learning and solving real-world problems.
+    Skilled in Python, ML models and web deployment.
+  </p>
+</section>
+
+<section>
+<h2>Skills</h2>
+<div class="skills">
+  <div class="skill-box">Python</div>
+  <div class="skill-box">SQL</div>
+  <div class="skill-box">Machine Learning</div>
+  <div class="skill-box">Flask</div>
+  <div class="skill-box">HTML & CSS</div>
+  <div class="skill-box">XGBoost</div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="projects">
+
+<div class="card">
+<h3>Factory Guard AI</h3>
+<p>Predict machine failures using ML algorithms.</p>
+<a class="btn" href="#">GitHub</a>
+</div>
+
+<div class="card">
+<h3>Classification Model</h3>
+<p>High accuracy prediction system using RandomForest.</p>
+<a class="btn" href="#">GitHub</a>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: yourmail@gmail.com</p>
+<p>GitHub: github.com/yourname</p>
+<p>LinkedIn: linkedin.com/in/yourname</p>
+</section>
+
+<footer>
+© 2026 Yuvaraj Portfolio
+</footer>
+
+</body>
+</html>
